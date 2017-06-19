@@ -1,0 +1,60 @@
+
+bin/main
+
+*.swp
+
+*~
+*.pyc
+*.pyo
+# Ignore callgrind files
+callgrind.out.*
+.z3-trace
+
+# cpp
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+
+# llvm
+*.ll
+*.bc
+
+# OCaml generated files
+*.a
+*.cma
+*.cmo
+*.cmi
+*.cmxa
+
+
+# Java generated files
+*.class
+*.jar
+# Emacs temp files
+\#*\#
+# Directories with generated code and documentation
+cmake-build-debug/*
+release/*
+build/*
+build-dist/*
+dist/*
+doc/html/*
+.idea/*
+.settings/*
+.cproject
+.project
